@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "frozen_input_sha256": "8b8a0849d8ebcd15fa640b7d678154d9f3f6c2494a465c6889e0d7872dd53e33",
+  "previewed_ids": ["47198A", "48543B", "48442A", "43177B", "43589B", "46627A", "46379A", "46278A", "51555", "44204A"],
+  "headline_metric": "micro typed F1 over unique normalized value/canonical-label pairs per row",
+  "normalization": "strip Python ASCII string.punctuation and whitespace from both edges; case-sensitive",
+  "failures": "empty predictions; gold retained in denominator; no automatic retries",
+  "leak_rate": "unique gold values not contained in any grounded predicted value; ignore label",
+  "latency": "client elapsed for all recorded attempts; p50 median and nearest-rank p95",
+  "cost": "reported token usage and dated standard rates; missing usage means unknown, never zero",
+  "strict_raw_label_f1": "unavailable because frozen gold already merged numbered labels",
+  "small_support_warning": "CARDISSUER has only one gold instance",
+  "final_run": {"rows": 500, "models": 3, "concurrency_per_model": 5, "retries": 0, "timeout_seconds": 30}
+}

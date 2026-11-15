@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "currency": "USD",
+  "unit": "per million tokens",
+  "source": "https://docs.fireworks.ai/serverless/pricing",
+  "tier": "standard",
+  "models": {
+    "accounts/fireworks/models/gpt-oss-120b": {"input": 0.15, "cached_input": 0.015, "output": 0.60},
+    "accounts/fireworks/models/deepseek-v4p1-flash-1017": {"input": 0.30, "cached_input": 0.006, "output": 1.20},
+    "accounts/fireworks/models/glm-5p3-flash": {"input": 0.15, "cached_input": 0.03, "output": 0.50}
+  }
+}

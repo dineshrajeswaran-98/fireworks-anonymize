@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "headline": "canonical typed micro F1; precision, recall, leak rate prominent",
+  "new_open_models": [
+    "accounts/fireworks/models/minimax-m3",
+    "accounts/fireworks/models/qwen3p8-max"
+  ],
+  "new_direct_openai_models": [
+    "gpt-6-luna",
+    "gpt-6.1-terra",
+    "gpt-6.1-sol"
+  ],
+  "reuse_run": "20261102T224047677720Z",
+  "historical_only_model": "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+  "dataset_sha256": "8b8a0849d8ebcd15fa640b7d678154d9f3f6c2494a465c6889e0d7872dd53e33",
+  "rows": 500,
+  "concurrency": 5,
+  "max_tokens": 2048,
+  "timeout_seconds": 30,
+  "retries": 0,
+  "new_fireworks_reasoning": {
+    "minimax-m3": "low",
+    "qwen3p8-max": "none"
+  },
+  "openai_reasoning": "low",
+  "prompt_changes": false,
+  "confidence_intervals": "row bootstrap for canonical F1 and leak rate; 1000 replicates, seed 7",
+  "sources": [
+    "https://app.fireworks.ai/models/fireworks/minimax-m3",
+    "https://app.fireworks.ai/models/fireworks/qwen3p8-max"
+  ],
+  "limitations": [
+    "Same synthetic frozen gold, already scored for the original open models; first 10 were manually previewed.",
+    "490-row subset excludes the original preview, but is not a fresh unused test set across this entire project.",
+    "Historical and new model runs occur at different wall-clock times.",
+    "CARDISSUER support is one; strict numbered raw labels unavailable."
+  ]
+}

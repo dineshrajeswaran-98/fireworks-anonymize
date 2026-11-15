@@ -1,5 +1,7 @@
 # PII redaction with a fine-tuned open model on Fireworks
 
+[Eight-model benchmark](benchmarks/eight-model/README.md) · Precision, recall, leak rate, latency, and cost on the frozen 500-row test set.
+
 [![Watch the 60-second video](docs/video-thumb.png)](docs/pii-redaction-60s.mp4)
 
 We built a model that finds personal data (PII) in text, so it can be masked before the text is sent to an outside AI model. We picked a small open model, `glm-5p3-flash`, measured a plain prompt, improved it one layer at a time with a prompt harness, and then fine-tuned it with LoRA. Every step was scored on the same 500 locked test texts and checked with two statistical tests.

@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-02",
+  "currency": "USD",
+  "unit": "per million tokens",
+  "tier": "standard",
+  "sources": [
+    "https://docs.fireworks.ai/serverless/pricing",
+    "https://developers.openai.com/api/docs/pricing"
+  ],
+  "models": {
+    "accounts/fireworks/models/gpt-oss-120b": {
+      "input": 0.15,
+      "cached_input": 0.015,
+      "output": 0.6
+    },
+    "accounts/fireworks/models/deepseek-v4p1-flash-1017": {
+      "input": 0.3,
+      "cached_input": 0.006,
+      "output": 1.2
+    },
+    "accounts/fireworks/models/glm-5p3-flash": {
+      "input": 0.15,
+      "cached_input": 0.03,
+      "output": 0.5
+    },
+    "gpt-6-luna": {
+      "input": 0.1,
+      "cached_input": 0.01,
+      "output": 0.5
+    },
+    "gpt-6.1-terra": {
+      "input": 1.0,
+      "cached_input": 0.05,
+      "output": 5.0
+    },
+    "gpt-6.1-sol": {
+      "input": 2.0,
+      "cached_input": 0.1,
+      "output": 10.0
+    },
+    "accounts/fireworks/models/minimax-m3": {
+      "input": 0.3,
+      "cached_input": 0.06,
+      "output": 1.2
+    },
+    "accounts/fireworks/models/qwen3p8-max": {
+      "input": 2.0,
+      "cached_input": 0.25,
+      "output": 6.0
+    }
+  },
+  "notes": "Reasoning is included in output. Nonzero separate cache-write usage is unknown cost until duration and rate are established."
+}

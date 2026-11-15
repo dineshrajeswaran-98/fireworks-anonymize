@@ -1,0 +1,152 @@
+{
+  "replicates": 1000,
+  "seed": 7,
+  "reference": "gpt-6.1-sol",
+  "note": "95% descriptive row-bootstrap percentile intervals; paired differences use identical draws; no multiple-comparison correction.",
+  "models": {
+    "accounts/fireworks/models/gpt-oss-120b": {
+      "f1_95ci": [
+        0.7215084264975805,
+        0.7687957418496341
+      ],
+      "leak_rate_95ci": [
+        0.14743407995463567,
+        0.2011407985589913
+      ],
+      "f1_difference_vs_reference_95ci": [
+        -0.14331789442881226,
+        -0.10494193647987926
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        0.12015858493443124,
+        0.17246642246642246
+      ]
+    },
+    "accounts/fireworks/models/deepseek-v4p1-flash-1017": {
+      "f1_95ci": [
+        0.7790714388385799,
+        0.8270722433460076
+      ],
+      "leak_rate_95ci": [
+        0.04011713030746706,
+        0.06775372504919876
+      ],
+      "f1_difference_vs_reference_95ci": [
+        -0.08610990540149421,
+        -0.04730239264260949
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        0.01272669424117085,
+        0.040476937558832755
+      ]
+    },
+    "accounts/fireworks/models/glm-5p3-flash": {
+      "f1_95ci": [
+        0.7538644470868014,
+        0.7999411591644602
+      ],
+      "leak_rate_95ci": [
+        0.022354694485842028,
+        0.04005296259516716
+      ],
+      "f1_difference_vs_reference_95ci": [
+        -0.1097375914562152,
+        -0.07589006544370858
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        -0.004801920768307322,
+        0.01031957390146471
+      ]
+    },
+    "gpt-6-luna": {
+      "f1_95ci": [
+        0.8207058823529412,
+        0.8634664273964409
+      ],
+      "leak_rate_95ci": [
+        0.029320987654320986,
+        0.054021244309559936
+      ],
+      "f1_difference_vs_reference_95ci": [
+        -0.0439706404868071,
+        -0.014357052869085507
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        0.0024089129780186687,
+        0.02497687326549491
+      ]
+    },
+    "gpt-6.1-terra": {
+      "f1_95ci": [
+        0.817262955238248,
+        0.8570994684889901
+      ],
+      "leak_rate_95ci": [
+        0.053986968662736584,
+        0.08865347086701979
+      ],
+      "f1_difference_vs_reference_95ci": [
+        -0.047340237876715596,
+        -0.020629462465225568
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        0.02791878172588833,
+        0.05924247329232761
+      ]
+    },
+    "gpt-6.1-sol": {
+      "f1_95ci": [
+        0.8533089356511131,
+        0.88689776733255
+      ],
+      "leak_rate_95ci": [
+        0.020874103065883887,
+        0.036251105216622455
+      ],
+      "f1_difference_vs_reference_95ci": [
+        0.0,
+        0.0
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "accounts/fireworks/models/minimax-m3": {
+      "f1_95ci": [
+        0.7306608205449421,
+        0.7859103385178408
+      ],
+      "leak_rate_95ci": [
+        0.07240230233262648,
+        0.15905654671908073
+      ],
+      "f1_difference_vs_reference_95ci": [
+        -0.1348315017987921,
+        -0.08808051236365777
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        0.04534388314059647,
+        0.13043478260869565
+      ]
+    },
+    "accounts/fireworks/models/qwen3p8-max": {
+      "f1_95ci": [
+        0.7658698749406364,
+        0.8106971153846154
+      ],
+      "leak_rate_95ci": [
+        0.04077501445922498,
+        0.0715158924205379
+      ],
+      "f1_difference_vs_reference_95ci": [
+        -0.10031425481281786,
+        -0.06485450581666874
+      ],
+      "leak_rate_difference_vs_reference_95ci": [
+        0.012485136741973844,
+        0.04499703966844286
+      ]
+    }
+  }
+}
